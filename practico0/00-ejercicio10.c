@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 /*
 Escribir un programa C que imprima por pantalla los cuadrados de los primeros 30 números naturales.
