@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
-Escribir un programa C que permita inicializar un arreglo con 10 números y muestre el menor y el mayor por pantalla.
+Escribir un programa C que permita inicializar un arreglo con 10 números y los muestre ordenados de menor a mayor por pantalla.
 */
 
 int main()
@@ -35,6 +35,10 @@ int main()
         }
     }
 
-    printf("El menor elemento del arreglo es %d y el mayor es %d\n", numeros[0], numeros[9]);
+    for (m = 0; m < 10; m++)
+    {
+        printf("%d ", numeros[m]);
+    }
+    printf("\n");
     return 0;
 }
